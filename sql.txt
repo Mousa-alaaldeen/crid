@@ -1,0 +1,22 @@
+                                                INSERT
+INSERT INTO students ( first_name, last_name, email, date_of_birth, gender, major, enrollment_year)
+VALUES
+( 'John', 'Doe', 'johndoe@example.com', '2000-01-15', 'Male', 'Computer Science', 2019),
+( 'Jane', 'Smith', 'janesmith@example.com', '1999-11-02', 'Female', 'Mechanical Engineering', 2018),
+('Michael', 'Johnson', 'michaeljohnson@example.com', '2001-05-23', 'Male', 'Electrical Engineering', 2020),
+('Emily', 'Davis', 'emilydavis@example.com', '2002-07-10', 'Female', 'Civil Engineering', 2021),
+( 'David', 'Brown', 'davidbrown@example.com', '1998-03-12', 'Male', 'Business Administration', 2017),
+( 'Sarah', 'Williams', 'sarahwilliams@example.com', '2000-09-18', 'Female', 'Biology', 2019),
+( 'James', 'Jones', 'jamesjones@example.com', '2001-12-04', 'Male', 'Physics', 2020),
+( 'Emma', 'Garcia', 'emmagarcia@example.com', '1999-08-25', 'Female', 'Mathematics', 2018),
+('Daniel', 'Martinez', 'danielmartinez@example.com', '2002-10-15', 'Male', 'Chemistry', 2021),
+( 'Sophia', 'Rodriguez', 'sophiarodriguez@example.com', '2000-04-30', 'Female', 'Computer Engineering', 2019);
+================================
+Insert INTO Instructors( first_name, last_name, email, hire_date, department)
+VALUES
+( 'Alice', 'Miller', 'alicemiller@example.com', '2015-09-01', 'Computer Science'),
+( 'Robert', 'Wilson', 'robertwilson@example.com', '2017-06-15', 'Mechanical Engineering'),
+( 'Laura', 'Anderson', 'lauraanderson@example.com', '2013-03-22', 'Electrical Engineering'),
+( 'Mark', 'Thomas', 'markthomas@example.com', '2019-01-10', 'Business Administration'),
+( 'Susan', 'Moore', 'susanmoore@example.com', '2020-11-30', 'Mathematics');
+
